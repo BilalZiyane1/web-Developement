@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilal's calculator</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script defer src="./js/main.js"></script>
+</head>
+<body>
+    <h1>Bilal's calculator</h1>
+    <div>
+        <h2 id="display">0</h2>
+        <ul>
+            <!-- Add button elements with onclick attribute for each digit and operator -->
+            <li><button onclick="addToDisplay('1')">1</button></li>
+            <li><button onclick="addToDisplay('2')">2</button></li>
+            <li><button onclick="addToDisplay('3')">3</button></li>
+            <li><button class="operator" onclick="addToDisplay('+')">+</button></li>
+            <li><button onclick="addToDisplay('4')">4</button></li>
+            <li><button onclick="addToDisplay('5')">5</button></li>
+            <li><button onclick="addToDisplay('6')">6</button></li>
+            <li><button class="operator" onclick="addToDisplay('-')">-</button></li>
+            <li><button onclick="addToDisplay('7')">7</button></li>
+            <li><button onclick="addToDisplay('8')">8</button></li>
+            <li><button onclick="addToDisplay('9')">9</button></li>
+            <li><button class="operator" onclick="addToDisplay('*')">*</button></li>
+            <li><button onclick="addToDisplay('0')">0</button></li>
+            <li><button onclick="addToDisplay('.')">.</button></li>
+            <!-- Change '=' to 'calculateResult()' -->
+            <li><button onclick="calculateResult()">=</button></li>
+            <li><button class="operator" onclick="addToDisplay('/')">/</button></li>
+            <!-- Add a 'clearDisplay()' function for the clear button -->
+            <li><button onclick="clearDisplay()">clear</button></li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+body {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+}
+h1 {
+  font-size: 50px;
+  text-decoration: underline;
+  color: brown;
+}
+ul{
+  width: 270px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+  margin: 0px;
+  padding-right: 0px;
+}
+button {
+  width: 50px; /* Adjust the width and height as needed */
+  height: 50px;
+  border-radius: 50%; /* Makes the button circular */
+  background-color: #cfd0d2; /* Example background color */
+  border: none;
+  color: #fff; /* Text color */
+  font-size: 16px; /* Adjust font size as needed */
+  margin: 5px;
+  cursor: pointer;
+}
+button:hover{
+  opacity: .8;
+}
+div{
+  background-color: #282a35;
+  border-radius: 10px;
+}
+h2{
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 27px;
+  padding-top: 10px;
+  margin: 0px;
+}
+.operator{
+  background-color: rgb(225, 145, 6);
+
+}

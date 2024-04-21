@@ -1,0 +1,19 @@
+XML
+<users>
+    <user>
+        <nom>ZIYANE</nom>
+        <prenom>BILAL</prenom>
+    </user>
+    <user>
+    </user>
+    <user>
+    </user>
+
+
+</users>
+
+JSON
+  '{"nom":"ZIYANE","age":30}'
+
+men json l js json.stringify(nom de l'objet deja creer f consol)
+    contraire let o2=json.parse('json chaine de caractere')

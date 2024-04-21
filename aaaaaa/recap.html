@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li {
+            display: block;
+        }
+
+        body {
+            background-color: aliceblue;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center content horizontally */
+        }
+
+        h1 {
+            font-size: 50px;
+            text-decoration: underline;
+            color: brown;
+        }
+
+        div {
+            padding: 0 20px;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            gap: 10px;
+            list-style: none; /* Remove default list styles */
+            padding: 0; /* Remove default padding */
+        }
+
+        .inpu {
+            width: 50px; /* Added width for the input field */
+        }
+        button{
+            border: none;
+            border-radius: 20px;
+            background-color: red;
+            padding: 10px;
+            font-size: 13px;
+            color: whitesmoke;
+        }
+        .cla{
+            background-color: rgb(36, 202, 108);
+            color:black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>WELCOME!</h1>
+    <div>
+        <ul>
+            <li>
+                <input type="text" placeholder="enter" class="inpu" value="0">
+                <button class="js-btn1" onclick="increase();">increase</button>
+                <button class="js-btn1-1" onclick="decrease();">decrease</button>
+            </li>
+            <li><button class="js-btn2" onclick="third()">click3</button></li>
+            <li><button class="js-btn3">click2</button></li>
+        </ul>
+    </div>
+
+    <script>
+        function increase() {
+            let ne = document.querySelector('.inpu');
+            ne.value = parseInt(ne.value) + 1;
+            ne.classList.add('cla')
+        }
+
+        function decrease() {
+            let ne = document.querySelector('.inpu');
+            if (parseInt(ne.value) > 0) {
+                ne.value = parseInt(ne.value) - 1;
+            }
+        }
+        function third(){
+            
+          
+        }
+    </script>
+</body>
+
+</html>

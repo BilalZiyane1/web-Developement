@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .new {
+      border: none;
+      border-radius: 15px;
+      padding: 10px;
+      background-color: red;
+      color: lightblue;
+    }
+  </style>
+</head>
+<body>
+  <button onclick="handleClick();" class="js-click">click me</button>
+  <button>don't click me</button>
+
+  <script>
+    let first = document.querySelector('.js-click');
+    function handleClick() {
+      if (first.innerText === 'click me') {
+        first.innerHTML = "don't click me";
+      }
+      first.classList.add('new');
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,190 @@
+:root{
+    --globalMargin:100px;
+    --loginColor:dodgerblue;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+body>header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px var(--globalMargin);
+    border-top: 3px solid darkorange;
+    border-bottom: 1px solid rgb(215, 213, 213);
+    box-shadow: 0px 1px rgb(242, 241, 241);
+    height: 60px;
+}
+.logo{
+    width: 180px;
+    
+}
+body>header>div:first-child{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-bottom: 10px;
+}
+body>header input{
+  margin-top: 20px;
+  width: 60%;
+  padding: 6px;
+}
+body>header button:first-child{
+    border: 0px;
+    background: unset;
+    color: var(--loginColor);
+}
+#sign{
+    color:aliceblue;
+    background-color:  rgb(61, 155, 243);
+    border-radius: 5px;
+    height: 35px;
+    width:fit-content;
+    padding: 10px;
+}
+main{
+    display: flex;
+    margin: 0px var(--globalMargin);
+}
+main>nav{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-top: 35px;
+    border-right: 1px solid rgb(215, 213, 213);
+    box-shadow: 0px 1px rgb(242, 241, 241);
+}
+.section{
+    flex:1;
+}
+.section header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.ad{
+    width: 70%;
+}
+.ad img{
+    width: 100%;
+}
+.content{
+    display: flex;
+}
+.ad>div{
+    display: flex;
+}
+section .vote{
+    display: flex;
+    width: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+.post img{
+    width: 270px;
+}
+
+.post li{
+    display: inline-block;
+}
+/*.post ul{
+    display: flex;
+    list-style: none;
+}*/
+footer{
+
+    background-color: #232629;
+    display: flex;
+    justify-content: space-around;
+    
+}
+footer>div{
+    flex:1;
+}
+footer li{
+    display: block;
+}
+.socialMedia li{
+    display: inline-block;
+}
+.text{
+    color:black;
+    text-size-adjust: initial;
+    
+}
+ul li{
+    display: inline-block;
+}
+main>nav>a:first-child{
+    margin-bottom: 20px;
+}
+main nav div ul{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+main nav div ul li {
+   
+    margin:10px;
+}
+main section header{
+    height: 50px;
+    margin: 17px;
+    border-bottom: 1px solid rgb(215, 213, 213);
+    box-shadow: 0px 1px rgb(242, 241, 241);    
+}
+.para{
+    margin-left: 15px;
+}
+.bou{
+    padding: 0%;
+    border:0;
+    height: 30px;
+    width:30px;
+    font-size: 40px;
+}
+#he{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section div div div div ul li button{
+  color: #0A95FF;
+  border:0px;
+  padding: 5px;
+  background-color: rgb(218, 214, 214);
+  border-radius: 3px;
+}
+footer{
+    background-color: #232629;
+    padding-left: 10%;
+    padding-right:10%;
+    padding-top: 2%;
+    margin-top: 50px;
+}
+.ul{
+    display: flex;
+    flex-direction: column;
+}
+footer div h4{
+    color: aliceblue;
+    margin-bottom: 5%;
+}
+#last_ul{
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 10%;
+}
+.color{
+    color:white;
+}
+/*
+# inherite where we have a css code in a parent the children take this propriety from the father  
+# gap creer une distance entre les elements dans flex 
+# 
+*/

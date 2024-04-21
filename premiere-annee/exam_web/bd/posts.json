@@ -1,0 +1,29 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "postcontent": "what a wonderful day"
+        }
+    ],
+    "nother": [
+        {
+            "id": 1,
+            "profile-name": "Mehdi Tmimi",
+            "profile-pic": "./img/profil.jpg ",
+            "postconent": {
+                "postText": "what a wonderful day",
+                "postPic": ""
+            }
+        },
+        {
+            "id": 1,
+            "profile-name": "Mehdi Tmimi",
+            "profile-pic": "./img/profil.jpg ",
+            "postconent": {
+                "postText": "what a wonderful day",
+                "postPic": ""
+            }
+        }
+    ],
+    "lastid": 2
+}

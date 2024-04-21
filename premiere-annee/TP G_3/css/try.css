@@ -1,0 +1,365 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+a{
+    color:inherit;
+}
+body{
+    background: #eaebed;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: #4167b2;
+    color:white;
+    font-size: 1em;
+}
+header>div{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+header input{
+ font-size: 1em;
+ margin-left: 5px;
+ width: 50%;
+ padding: 4px;
+}
+header>div::after{
+    content: '\f002';
+    font: normal normal normal 14px/1 FontAwesome;
+    color: #626976;
+    background: #f5f6f7;
+    align-self: stretch;
+    margin: 2px 0px;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    position: relative;
+    left: -35px;
+}
+header button{
+    background: unset;
+    border: 0px;
+    display: flex;
+}
+.logo{
+    font-size: 2em!important;
+}
+header a {
+    color:inherit;
+}
+header nav{
+    padding-right:10% ;
+}
+header nav ul{
+    display: flex;
+}
+header nav li{
+    display: block;
+    padding: 10px 20px;
+    border-right: 1px solid hsl(220deg 47% 44%);
+}
+.last-item-list{
+    border-right: 0px;
+}
+main{
+    display: flex;
+    padding: 20px 10%;
+}
+/*
+left aside
+*/
+.left-aside{
+    width: 200px;
+}
+.header-left-aside{
+    display: flex;
+}
+.left-aside li{
+    display: block;
+}
+.news-feed{
+    display: flex!important;
+    justify-content: space-between;
+    align-items: center;
+}
+/*
+right aside
+*/
+.right-aside{
+    width: 350px;
+    margin-right: 10%;
+}
+.page-board{
+    background: white;
+    color:#646a73;
+    padding: 20px;
+    border: 1px solid #e2e3e5;
+    border-radius: 5px;
+}
+
+.page-board>div{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-bottom: 10px;
+border-bottom: 1px solid #e3e4e6;
+}
+.page-board ul{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cfd2d6;
+    border-radius: 3px;
+}
+.page-board button{
+    background: unset;
+    border: 0px;
+}
+.page-board p{
+    font-weight: bold;
+}
+.page-board button i{
+    color: #646a73!important;
+}
+.page-board h3{
+    font-size: 0.9em;
+}
+.page-board li{
+    border-right: 1px solid #cfd2d6;
+    display: block;
+    flex: 1;
+    padding: 10px;
+    font-size: 0.7em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page-board li:nth-child(1){
+    background: #dedfe1;
+}
+.page-board li:nth-child(3){
+border-right: 0px;
+}
+.page-board p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.langues{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #e2e3e5;
+    border-radius: 5px;
+}
+.selected-langue{
+    color: #878a90 !important;;
+}
+.selected-langue::before{
+    content: ''!important;
+    margin: 0px!important;
+}
+.langues ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.langues li{
+    display: block;
+    color:#4664a0;
+}
+.langues li::before{
+    content: '.';
+    color:#abadb4;
+    margin: 0px 4px;
+}
+.langues button{
+    background: #f5f6f7;
+    padding: 6px 12px;
+    border:1px solid #d0d3d8;
+}
+.langues button i{
+    color: #646b7a;
+}
+footer{
+    padding: 20px 10px;
+    color: #989ba3;
+}
+footer ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+footer li {
+    display: block;
+    margin-right:4px;
+}
+footer li::after{
+    content: '.';
+
+}
+
+footer li:nth-child(6)::after,
+footer li:nth-child(7)::after{
+    content: unset;
+}
+footer button{
+    background: unset;
+    border: 0px;
+    color:#8d939f;
+    display: flex;
+}
+footer p{
+    color:#6d737b;
+}
+/* 
+section
+*/
+main section{
+    flex:1;
+    margin: 0px 14px;
+}
+main section>div{
+ border: 1px solid #e2e3e5;
+ background: white;
+ border-radius: 4px;
+ overflow: hidden;
+}
+main section>div>h1{
+    background-color: #f5f6f7;
+    color: #555860;
+    font-size: 1em;
+    padding: 10px 10px;
+    border-bottom: 1px solid  #e2e3e5;
+     
+}
+main section>div>h1+div{
+    padding: 0px 10px;
+}
+main section>div>h1+div>div{
+    border-bottom: 1px solid #efeff1;
+}
+main section>div img{
+    width: 30px;
+    border-radius: 100px;
+}
+main section>div input{
+    height: 5em;
+    border: 0px;
+    margin-left: 10px;
+}
+main article{
+    border: 1px solid #e2e3e5;
+    background: white;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 14px;
+}
+.header-article{
+    padding: 10px;
+    
+}
+.header-article h1{
+    color: #4e6aa4;
+    font-size: 1em;
+}
+.header-article p{
+ 
+    font-size: 0.8em;
+    color: #777d85;
+}
+.header-article img{
+    border-radius: 50%;
+    margin-right: 6px;
+    width: 35px;
+}
+.header-article button{
+    border: 0px;
+    background: unset;
+    color: #d6d8dc;
+}
+main .post p{
+ padding-left: 10px;
+ margin-bottom: 10px;
+}
+main article .post-img{
+    width: 100%;
+}
+.create-post{
+    display: flex;
+    align-items: center;
+}
+.create-post input{
+    flex: 1;
+}
+main .post+div{
+    padding: 10px;
+}
+.btns-create-post{
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+.btns-create-post li{
+    display: block;
+    margin-right: 8px;
+}
+.btns-create-post li button{
+    border: 0px;
+    padding: 8px;
+    border-radius: 20px;
+    color: #595c63;
+}
+.header-article{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.header-article>div{
+    display: flex;
+    align-items: center;
+}
+.likes-number{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e3e5e8;
+    padding-bottom: 10px;
+}
+.likes-number span:first-child{
+    color:#6fa85e;
+}
+.likes-number span:last-child{
+    color:#ee504b;
+}
+.likes-btns{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+.likes-btns button{
+    background: unset;
+    border: 0px;
+    color: #767d85;
+}
+@media screen and (max-width:730px){
+    header{
+        flex-direction: column;
+    }
+    header>div{
+        width: 100%;
+    }
+    header input{
+        width: 90%;
+    }
+}

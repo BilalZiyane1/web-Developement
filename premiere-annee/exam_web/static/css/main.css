@@ -1,0 +1,338 @@
+:root{
+    --leftPadding:100px;
+    --rightPadding:300px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+a{
+    color: inherit;
+}
+li{
+    display: inline-block;
+}
+body >header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 5px;
+    background-color: white;
+}
+body main {
+    display: flex;
+    background-color: #eef1f3;
+    justify-content: space-between;
+
+}
+
+input[type="text"] {
+    width :220px;
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 4px;
+    flex: 1;
+    background-color: rgb(243, 239, 239);
+    height: 25px;
+    position: relative;
+    
+}
+input:focus {
+    border-width: 1px; /* decrease the border width to 1 pixel when the input is in focus */
+    outline: none; /* remove the default outline that appears when an input is in focus */
+  } 
+.div{
+    display: flex;
+    gap: 7px;
+}
+.btn_search
+{
+    position: absolute;
+    background-color: white;
+    border: none;
+    left: 5%;
+    bottom: 95%;
+}
+.btn{
+    border: none;
+    background-color: white;
+}
+.btns{
+    border-bottom: 3px solid #0860f7 ;
+}
+.btn2{
+    padding: 13.5px;
+    border-radius: 120px;
+    border: none;
+    position: relative;
+}
+.icon_facebook{
+    padding: 20px;
+}
+
+.ul{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-right: 90px;
+}
+.ul2{
+    padding-top: 15px;
+    padding-bottom: 5px;
+
+    display: flex;
+}
+.ul2 li{
+    padding:0px 5px;
+}
+.ul li{
+    padding: 21px 50px;
+}
+.aside-1{
+    
+    width: 300px;
+    height: 350px;
+    margin:13px 10px;
+    
+    border-bottom: 2px solid rgba(172, 171, 171, 0.5) ;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+.aside-1 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    
+}
+.aside-1 ul li{
+    display: flex;
+    border-radius: 8px;
+    height: 50px;
+    align-items: center;
+}
+.aside-1 ul li h4{
+    align-self: center;
+}
+.aside-1 ul li button{
+    margin-right: 15px;
+    background-color: none;
+}
+.onw{
+    margin-right: 15px;
+}
+.little{
+    width: 17px;
+    position: absolute;
+    right: 110px;
+    top: 9px;
+}
+.little2{
+    width: 15px;
+    position: absolute;
+    right: 8px;
+    border-radius: 20px;
+}
+.profil{
+    border-radius: 50px;
+    position: relative;
+}
+.more{
+    border-radius: 60px;
+    padding: 10px;
+    background-color:  rgb(212, 211, 211, .5);
+    border: none;
+}
+.li-1{
+    background-color: rgb(219, 216, 216,.5);
+    padding-top: 3px;
+}
+.li-2{
+    background-color: rgb(180, 180, 180,.1);
+}
+.hea{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    height: 100px;
+    margin-top:20px ;
+    padding: 10px;
+    flex-direction: column;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+body main section{
+    margin-top: 25px;
+}
+.hea div{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid rgb(214, 212, 212);
+}
+.hea ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+.hea ul li{
+    margin: 5px;
+}
+.bt{
+    color: white;
+    background-color: aqua;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.dv{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    height: 100px;
+    margin-top:20px ;
+    padding: 10px;
+    flex-direction: column;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+.dv-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h{
+    padding-left:5px;
+}
+.dv div{
+    display: flex;
+    justify-content: space-between;
+}
+.btn3{
+    border: none;
+    background: white;
+}
+.h3{
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.ul-6{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+.dv-4{
+    margin-top: 80px;
+    display: flex;
+    background-color:white;
+    border-radius: 10px;
+    height: 400px;
+     margin-bottom: 15px;
+    padding: 20px;
+    flex-direction: column;
+}
+.dv-4 header{
+    display: flex;
+    justify-content: space-between;
+}
+.main-2 {
+    margin-top: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 25px 0px 10px;
+}
+.non{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: none;
+    box-shadow:  0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    height: 300px;
+    margin: 10px;
+    width: 180px;
+    overflow: hidden;
+    margin: 0%;
+}
+.non h4{
+    font-weight: 550;
+    margin: 10px;
+}
+.non ul{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.dv-4 footer{
+    display: flex;
+    align-self: center;
+}
+.hh{
+    padding-top: 30px;
+    font-weight: 500;
+    color: #3266be;
+}
+.button2{
+    color: #286de2;
+    padding: 5px 57px;
+    border: none;
+    background-color:  rgb(151, 191, 245,.3);
+    border-radius: 5px;
+}
+.button{
+    padding: 5px 61px;
+    border: none;
+    border-radius:5px ;
+}
+
+.pic{
+    width: 180px;
+    height: 180px;
+
+}
+
+main aside:last-child{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 20px;
+}
+main aside:last-child div:first-child{
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    font-weight: 500;
+    color: rgb(96, 102, 110);
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(174, 178, 184);
+}
+.gift{
+    width: 10%;
+    height: 28px;
+    margin-right: 10px;
+}
+main aside:last-child div:last-child{
+    margin-top: 10px;
+    color:rgb(96, 102, 110);
+}
+main aside:last-child div:last-child div{
+    display: flex;
+    margin-top: 10px;
+    color: rgb(96, 102, 110);
+}
+main aside:last-child div:last-child div span{
+    font-weight: bolder;
+}
+.btn4{
+    border: none;
+    background-color: none;
+}
